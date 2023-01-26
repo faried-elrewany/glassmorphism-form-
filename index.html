@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="formv2.css">
+    <style>
+   
+     
+    </style>
+  </head>
+  <body>
+    <section class="bg-animation">
+      <div class="top"></div>
+      <div class="left"></div>
+      <div class="right"></div>
+      <div class="bottom"></div>
+    </section>
+    
+    <div class="container">
+      <form class="glass login">
+        <div class="ball"><ion-icon name="log-in-outline"></ion-icon></div>
+        <div class="log__email log__box">
+          <input
+            type="email"
+            pattern="[a-zA-z0-9-+._]+@[a-zA-z0-9-+._]+\.[a-z]{2,}"
+            class="login__email input-style"
+            placeholder="Email Address"
+            id="Email Address"
+            required
+          />
+          <ion-icon class="i" name="mail-outline"></ion-icon>
+        </div>
+        <div class="log__pass log__box">
+          <input
+            type="password"
+            class="login__pass input-style"
+            placeholder="Password"
+            required
+            id="passwords"
+            value=""
+          />
+          <ion-icon class="i" name="lock-closed-outline"></ion-icon>
+          <!-- <ion-icon class="eye showHide" name="eye-off-outline"></ion-icon> -->
+        </div>
+        <div class="log__remember log__box">
+          <input
+            type="checkbox"
+            class="log__remember--input"
+            id="log--remember"
+          />
+          <label for="log--remember">Remember me</label>
+        </div>
+
+        <button class="login-btn" type="submit">Login Now</button>
+
+        <div class="form__text">
+          <p>not a member ?</p>
+          <a class="form__sign--up" href="#">sign up</a>
+        </div>
+      </form>
+    </div>
+
+    
+   <script src="cutout.js" ></script>
+   <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
+<!-- 
+
+
